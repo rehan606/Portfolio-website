@@ -305,3 +305,268 @@
     color: white;
 }
 /* Footer section End */
+
+
+/* Responsive */
+@media screen and (max-width:576px){
+    .header-bg {
+        background-image: url(../images/header_bg.png);
+    }
+    
+    .navigation {
+        margin: 0 20px;
+    }
+    .navigation ul li {
+        margin-right: 0;
+        margin-left: 20px;
+    }
+
+    .banner {
+        margin: 0 0 0 20px;
+    }
+    .banner-content {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+    .banner-greatings {
+        font-size: 30px;    
+        margin-top: 50px;
+    }
+    .banner-title {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .banner-description {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }   
+    .btn-primary {
+        font-size: 16px;
+        padding: 18px 30px;
+    }
+    .banner img{
+        display: none;
+    }
+    .banner-content button {
+        margin-right: 10px;
+    }
+
+    /* About */
+    .about {
+        margin: 30px 30px 0;
+        padding: 15px;
+    }
+    .information .name {
+        font-size: 16px;
+    }
+    .information .data {
+        font-size: 12px;
+    }
+    /* What i DO  */
+    .what-do {
+        margin: 0 30px;
+        padding: 30px 0;
+    }
+    .card-box {
+        flex-direction: column;
+    }
+    .card {
+        text-align: center;
+    }
+    /* Resume */
+    .resume {
+        margin: 0 28px;
+        padding: 30px 0 0px;
+    }
+    .resume .header {
+        margin-bottom: 40px;
+    }
+    .resume-content {
+        gap: 20px;
+    }
+    .education {
+        margin-right: 0;
+    }
+    .education .title {
+        font-size: 20px;
+    }
+    .education-details {
+        margin-top: 20px;
+        padding-right: 10px;
+    }
+    .education-details .headding {
+        font-size: 20px;
+    }
+    .education-details .sub-headding {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .cv-button {
+        margin-top: 0;
+        margin-bottom: 37px;
+    }
+    .container {
+        margin: 0 28px;
+        padding: 50px 0;
+        flex-direction: column;
+    }
+    .container .left {
+        padding-right: 0;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .container .right {
+        width: 100%;
+    }
+    #form-area input {
+        margin-bottom: 12px;
+        width: calc(100% - 26px);
+    }
+    #form-area #textarea{
+        width: calc(100% - 26px);
+    }
+
+
+
+
+
+
+
+
+}
+
+@media screen and (min-width:577px) and (max-width:768px){
+    .header-bg {
+        background-image:  url(../images/header_bg.png);
+    }
+    
+    .navigation {
+        margin: 0 78px;
+    }
+    .navigation ul li {
+        margin-right: 0;
+        margin-left: 20px;
+    }
+    .banner {
+        margin: 0 0 0 80px;
+    }
+    .banner-content {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    
+    .banner-greatings {
+        font-size: 30px;    
+        margin-top: 50px;
+    }
+    .banner-title {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .btn-primary {
+        padding: 18px 17px;
+    }
+    .margin{
+        margin-bottom: 15px;
+    }
+    .banner img {
+        width: 50%;
+        margin-right: 40px;
+    }
+    .banner-content button {
+        margin-right: 10px;
+    }
+    /* about */
+    .about {
+        margin: 30px 80px 0;
+        padding: 20px;
+    }
+    .about-content {
+        padding: 10px;
+    }
+    .information .name {
+        font-size: 18px;
+    }
+    .information .data {
+        font-size: 14px;
+    }
+
+    /* what i do  */
+    .what-do {
+        margin: 0 80px;
+        padding: 50px 0;
+    }
+    .card-box {
+        gap: 25px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    /* Resume  */
+    .resume {
+        margin: 0 80px;
+        padding: 20px 0 50px;
+    }
+    .resume .header {
+        margin-bottom: 60px;
+    }
+    .resume-content {
+        gap: 20px;
+    }
+    
+    .education {
+        width: 50%;
+        border: 1px solid gray;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        margin-right: 0;
+    }
+    .education .title {
+        font-size: 26px;
+    }
+    .education-details {
+        margin-top: 10px;
+        margin-right: 0;
+    }
+    .education-details .headding {
+        font-size: 20px;
+    }
+    .education-details .sub-headding {
+        font-size: 18px;
+    }
+
+    /* From  */
+
+    .container {
+        margin: 0 80px;
+        padding: 50px 0;
+        gap: 20px;
+    }
+    .container .left {
+        padding-right: 00px;
+    }
+    #form-area input {
+        margin-bottom: 10px;
+        width: 90%;
+    }
+    #form-area #textarea {
+        width: 90%;
+        height: 100px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
