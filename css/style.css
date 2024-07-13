@@ -242,9 +242,7 @@
 .container .right{
     width: 50%;
 }
-.content{
-    
-}
+
 .form-section .title{
     margin-bottom: 20px;
 }
@@ -428,13 +426,6 @@
         width: calc(100% - 26px);
     }
 
-
-
-
-
-
-
-
 }
 
 @media screen and (min-width:577px) and (max-width:768px){
@@ -569,4 +560,86 @@
 
 
 
+}
+
+@media screen and (min-width:769px) and (max-width:992px){
+    .navigation {
+        margin: 0 100px;
+    }
+    .navigation ul li {
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+    .banner {
+        margin: 0 0 0 100px;
+    }
+    .banner-greatings {
+        font-size: 40px;
+        margin-bottom: 0;
+        margin-top: 60px;
+    }
+    .banner-title {
+        font-size: 50px;
+    }
+    .banner-content {
+        width: 70%;
+    }
+    .btn-primary {
+        font-size: 18px;
+        padding: 18px 31px;
+    }
+    .margin{
+        font-size: 16px;
+        padding: 18px 20px;
+        margin-bottom: 10px;
+    }
+    .banner img {
+        width: 50%;
+        margin-right: 120px;
+    }
+    .banner-content button {
+        margin-right: 0px;
+    }
+
+    /* about  */
+    .about {
+        margin: 30px 100px 0;
+        padding: 50px 50px;
+    }
+    .information .data {
+        font-size: 16px;
+    }
+    /* what i do   */
+    .what-do {
+        margin: 0 100px;
+        padding: 50px 0;
+    }
+    .card-box {
+        gap: 25px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Resume  */
+    .resume {
+        margin: 0 100px;
+        padding: 15px 0 70px;
+    }
+    .resume .header {
+        margin-bottom: 60px;
+    }
+    .resume-content {
+        gap: 20px;
+    }
+    .education {
+        width: 50%;
+    }
+    /* form  */
+    .container {
+        margin: 0 100px;
+        padding: 70px 0;
+    }
+    #form-area #textarea {
+        height: 100px;
+    }
 }
